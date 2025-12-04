@@ -1,0 +1,14 @@
+[2025-12-06T03:06:08.957+0500] {processor.py:161} INFO - Started process (PID=76887) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-12-06T03:06:08.958+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-12-06T03:06:08.958+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:06:08.958+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-12-06T03:06:08.980+0500] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-12-06T03:06:09.157+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:06:09.156+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T03:06:09.162+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:06:09.161+0500] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-12-06T03:06:09.173+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.218 seconds
+[2025-12-06T03:10:30.244+0500] {processor.py:161} INFO - Started process (PID=77704) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-12-06T03:10:30.246+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2025-12-06T03:10:30.246+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:10:30.246+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-12-06T03:10:30.273+0500] {processor.py:840} INFO - DAG(s) 'example_display_name' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py
+[2025-12-06T03:10:30.443+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:10:30.443+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T03:10:30.449+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:10:30.449+0500] {dag.py:3947} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2025-12-06T03:10:30.462+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_display_name.py took 0.223 seconds

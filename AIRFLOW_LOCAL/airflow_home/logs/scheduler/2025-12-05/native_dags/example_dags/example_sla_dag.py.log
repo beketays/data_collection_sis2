@@ -1,0 +1,91 @@
+[2025-12-06T03:05:15.406+0500] {processor.py:161} INFO - Started process (PID=76826) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T03:05:15.407+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-06T03:05:15.407+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:05:15.407+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T03:05:15.440+0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T03:05:15.675+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:05:15.675+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T03:05:15.688+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:05:15.687+0500] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-12-05 22:02:00+00:00, run_after=2025-12-05 22:04:00+00:00
+[2025-12-06T03:05:15.707+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.304 seconds
+[2025-12-06T03:09:39.010+0500] {processor.py:161} INFO - Started process (PID=77644) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T03:09:39.010+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-06T03:09:39.011+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:09:39.011+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T03:09:39.031+0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T03:09:39.160+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:09:39.160+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T03:09:39.170+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:09:39.169+0500] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-12-05 22:06:00+00:00, run_after=2025-12-05 22:08:00+00:00
+[2025-12-06T03:09:39.180+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.173 seconds
+[2025-12-06T04:30:26.919+0500] {processor.py:161} INFO - Started process (PID=83811) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:30:26.920+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-06T04:30:26.921+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:30:26.921+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:30:26.942+0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:30:27.064+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:30:27.063+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:30:27.075+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:30:27.074+0500] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-12-05 23:28:00+00:00, run_after=2025-12-05 23:30:00+00:00
+[2025-12-06T04:30:27.083+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.166 seconds
+[2025-12-06T04:33:16.504+0500] {processor.py:161} INFO - Started process (PID=84087) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:33:16.504+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-06T04:33:16.505+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:33:16.505+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:33:16.522+0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:33:16.571+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:33:16.571+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:33:16.582+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:33:16.582+0500] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-12-05 23:30:00+00:00, run_after=2025-12-05 23:32:00+00:00
+[2025-12-06T04:33:16.591+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.089 seconds
+[2025-12-06T04:35:28.536+0500] {processor.py:161} INFO - Started process (PID=84300) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:35:28.537+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-06T04:35:28.538+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:35:28.538+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:35:28.569+0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:35:28.628+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:35:28.628+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:35:28.641+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:35:28.641+0500] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-12-05 23:32:00+00:00, run_after=2025-12-05 23:34:00+00:00
+[2025-12-06T04:35:28.651+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.120 seconds
+[2025-12-06T04:40:45.619+0500] {processor.py:161} INFO - Started process (PID=85527) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:40:45.620+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-06T04:40:45.621+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:40:45.621+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:40:45.645+0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:40:45.701+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:40:45.700+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:40:45.710+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:40:45.710+0500] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-12-05 23:38:00+00:00, run_after=2025-12-05 23:40:00+00:00
+[2025-12-06T04:40:45.721+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.104 seconds
+[2025-12-06T04:43:24.376+0500] {processor.py:161} INFO - Started process (PID=85695) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:43:24.376+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-06T04:43:24.377+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:43:24.377+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:43:24.414+0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:43:24.470+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:43:24.469+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:43:24.483+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:43:24.483+0500] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-12-05 23:40:00+00:00, run_after=2025-12-05 23:42:00+00:00
+[2025-12-06T04:43:24.503+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.130 seconds
+[2025-12-06T04:45:46.081+0500] {processor.py:161} INFO - Started process (PID=85824) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:45:46.082+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-06T04:45:46.083+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:45:46.083+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:45:46.103+0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:45:46.144+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:45:46.144+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:45:46.153+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:45:46.153+0500] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-12-05 23:42:00+00:00, run_after=2025-12-05 23:44:00+00:00
+[2025-12-06T04:45:46.162+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.087 seconds
+[2025-12-06T04:48:12.241+0500] {processor.py:161} INFO - Started process (PID=85935) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:48:12.242+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-06T04:48:12.242+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:48:12.242+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:48:12.261+0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:48:12.302+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:48:12.301+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:48:12.311+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:48:12.311+0500] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-12-05 23:46:00+00:00, run_after=2025-12-05 23:48:00+00:00
+[2025-12-06T04:48:12.320+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.082 seconds
+[2025-12-06T04:50:49.574+0500] {processor.py:161} INFO - Started process (PID=86501) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:50:49.574+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-06T04:50:49.575+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:50:49.575+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:50:49.598+0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:50:49.640+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:50:49.640+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:50:49.649+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:50:49.649+0500] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-12-05 23:48:00+00:00, run_after=2025-12-05 23:50:00+00:00
+[2025-12-06T04:50:49.657+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.086 seconds
+[2025-12-06T04:53:13.360+0500] {processor.py:161} INFO - Started process (PID=86621) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:53:13.362+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-06T04:53:13.362+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:53:13.362+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:53:13.380+0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:53:13.429+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:53:13.428+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:53:13.437+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:53:13.437+0500] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-12-05 23:50:00+00:00, run_after=2025-12-05 23:52:00+00:00
+[2025-12-06T04:53:13.446+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.088 seconds
+[2025-12-06T04:56:10.911+0500] {processor.py:161} INFO - Started process (PID=87472) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:56:10.914+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-06T04:56:10.915+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:56:10.915+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:56:10.948+0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:56:10.996+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:56:10.996+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:56:11.007+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:56:11.007+0500] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-12-05 23:54:00+00:00, run_after=2025-12-05 23:56:00+00:00
+[2025-12-06T04:56:11.018+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.112 seconds
+[2025-12-06T04:58:18.748+0500] {processor.py:161} INFO - Started process (PID=87834) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:58:18.748+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-12-06T04:58:18.749+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:58:18.749+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:58:18.765+0500] {processor.py:840} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-12-06T04:58:18.815+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:58:18.814+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:58:18.823+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:58:18.823+0500] {dag.py:3947} INFO - Setting next_dagrun for example_sla_dag to 2025-12-05 23:56:00+00:00, run_after=2025-12-05 23:58:00+00:00
+[2025-12-06T04:58:18.832+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.086 seconds

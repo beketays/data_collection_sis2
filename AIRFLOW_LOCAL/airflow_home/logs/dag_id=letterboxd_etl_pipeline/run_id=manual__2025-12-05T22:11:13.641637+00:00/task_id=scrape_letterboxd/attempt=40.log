@@ -1,0 +1,11 @@
+[2025-12-06T07:28:39.288+0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-12-06T07:28:39.296+0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: letterboxd_etl_pipeline.scrape_letterboxd manual__2025-12-05T22:11:13.641637+00:00 [queued]>
+[2025-12-06T07:28:39.298+0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: letterboxd_etl_pipeline.scrape_letterboxd manual__2025-12-05T22:11:13.641637+00:00 [queued]>
+[2025-12-06T07:28:39.298+0500] {taskinstance.py:2306} INFO - Starting attempt 40 of 3
+[2025-12-06T07:28:39.303+0500] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_letterboxd> on 2025-12-05 22:11:13.641637+00:00
+[2025-12-06T07:28:39.309+0500] {standard_task_runner.py:64} INFO - Started process 93580 to run task
+[2025-12-06T07:28:39.315+0500] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'letterboxd_etl_pipeline', 'scrape_letterboxd', 'manual__2025-12-05T22:11:13.641637+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/letterboxd_full_pipeline.py', '--cfg-path', '/var/folders/_c/cll051r911b7vr3j31p4d20m0000gn/T/tmph1pb3obu']
+[2025-12-06T07:28:39.318+0500] {standard_task_runner.py:91} INFO - Job 51: Subtask scrape_letterboxd
+[2025-12-06T07:28:39.537+0500] {local_task_job_runner.py:243} INFO - Task exited with return code -9For more information, see https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#LocalTaskJob-killed
+[2025-12-06T07:28:39.547+0500] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-12-06T07:28:39.547+0500] {local_task_job_runner.py:222} INFO - ::endgroup::

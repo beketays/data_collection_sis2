@@ -1,0 +1,95 @@
+[2025-12-06T03:56:22.128+0500] {processor.py:161} INFO - Started process (PID=79591) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T03:56:22.129+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-12-06T03:56:22.129+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:56:22.129+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T03:56:22.138+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T03:56:22.252+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:56:22.252+0500] {override.py:1930} INFO - Created Permission View: can read on DAG:latest_only
+[2025-12-06T03:56:22.257+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:56:22.256+0500] {override.py:1930} INFO - Created Permission View: can edit on DAG:latest_only
+[2025-12-06T03:56:22.260+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:56:22.259+0500] {override.py:1930} INFO - Created Permission View: can delete on DAG:latest_only
+[2025-12-06T03:56:22.260+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:56:22.260+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T03:56:22.265+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:56:22.265+0500] {dag.py:3111} INFO - Creating ORM DAG for latest_only
+[2025-12-06T03:56:22.269+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:56:22.269+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-12-05 16:00:00+00:00, run_after=2025-12-05 20:00:00+00:00
+[2025-12-06T03:56:22.326+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.201 seconds
+[2025-12-06T03:58:20.133+0500] {processor.py:161} INFO - Started process (PID=79717) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T03:58:20.134+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-12-06T03:58:20.134+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:58:20.134+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T03:58:20.141+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T03:58:20.192+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:58:20.192+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T03:58:20.201+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:58:20.201+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-12-05 16:00:00+00:00, run_after=2025-12-05 20:00:00+00:00
+[2025-12-06T03:58:20.211+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2025-12-06T04:01:29.552+0500] {processor.py:161} INFO - Started process (PID=80430) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:01:29.553+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-12-06T04:01:29.554+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:01:29.554+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:01:29.562+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:01:29.619+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:01:29.618+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:01:29.627+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:01:29.627+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-12-05 16:00:00+00:00, run_after=2025-12-05 20:00:00+00:00
+[2025-12-06T04:01:29.635+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.088 seconds
+[2025-12-06T04:04:50.122+0500] {processor.py:161} INFO - Started process (PID=81083) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:04:50.123+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-12-06T04:04:50.124+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:04:50.123+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:04:50.131+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:04:50.191+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:04:50.190+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:04:50.204+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:04:50.204+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-12-05 16:00:00+00:00, run_after=2025-12-05 20:00:00+00:00
+[2025-12-06T04:04:50.214+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.096 seconds
+[2025-12-06T04:08:10.395+0500] {processor.py:161} INFO - Started process (PID=81582) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:08:10.395+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-12-06T04:08:10.396+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:08:10.396+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:08:10.402+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:08:10.481+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:08:10.481+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:08:10.497+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:08:10.496+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-12-05 16:00:00+00:00, run_after=2025-12-05 20:00:00+00:00
+[2025-12-06T04:08:10.512+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.121 seconds
+[2025-12-06T04:11:35.877+0500] {processor.py:161} INFO - Started process (PID=81830) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:11:35.878+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-12-06T04:11:35.878+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:11:35.878+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:11:35.883+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:11:35.931+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:11:35.931+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:11:35.941+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:11:35.940+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-12-05 16:00:00+00:00, run_after=2025-12-05 20:00:00+00:00
+[2025-12-06T04:11:35.950+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.075 seconds
+[2025-12-06T04:14:54.877+0500] {processor.py:161} INFO - Started process (PID=82137) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:14:54.878+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-12-06T04:14:54.879+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:14:54.879+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:14:54.889+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:14:54.959+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:14:54.959+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:14:54.970+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:14:54.970+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-12-05 16:00:00+00:00, run_after=2025-12-05 20:00:00+00:00
+[2025-12-06T04:14:54.981+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.106 seconds
+[2025-12-06T04:18:03.616+0500] {processor.py:161} INFO - Started process (PID=82368) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:18:03.617+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-12-06T04:18:03.617+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:18:03.617+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:18:03.623+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:18:03.671+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:18:03.671+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:18:03.680+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:18:03.679+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-12-05 16:00:00+00:00, run_after=2025-12-05 20:00:00+00:00
+[2025-12-06T04:18:03.689+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2025-12-06T04:21:07.912+0500] {processor.py:161} INFO - Started process (PID=82559) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:21:07.912+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-12-06T04:21:07.913+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:21:07.913+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:21:07.921+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:21:07.969+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:21:07.968+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:21:07.977+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:21:07.976+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-12-05 16:00:00+00:00, run_after=2025-12-05 20:00:00+00:00
+[2025-12-06T04:21:07.986+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2025-12-06T04:23:56.788+0500] {processor.py:161} INFO - Started process (PID=82770) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:23:56.791+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-12-06T04:23:56.792+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:23:56.792+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:23:56.799+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:23:56.854+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:23:56.854+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:23:56.863+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:23:56.862+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-12-05 16:00:00+00:00, run_after=2025-12-05 20:00:00+00:00
+[2025-12-06T04:23:56.873+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.087 seconds
+[2025-12-06T04:27:23.375+0500] {processor.py:161} INFO - Started process (PID=83366) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:27:23.379+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-12-06T04:27:23.380+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:27:23.380+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:27:23.390+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:27:23.472+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:27:23.472+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:27:23.486+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:27:23.486+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-12-05 16:00:00+00:00, run_after=2025-12-05 20:00:00+00:00
+[2025-12-06T04:27:23.498+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.125 seconds
+[2025-12-06T04:30:57.802+0500] {processor.py:161} INFO - Started process (PID=83848) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:30:57.807+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-12-06T04:30:57.808+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:30:57.808+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:30:57.814+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:30:57.872+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:30:57.871+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:30:57.881+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:30:57.881+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-12-05 16:00:00+00:00, run_after=2025-12-05 20:00:00+00:00
+[2025-12-06T04:30:57.891+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.091 seconds
+[2025-12-06T04:34:39.155+0500] {processor.py:161} INFO - Started process (PID=84223) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:34:39.156+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2025-12-06T04:34:39.156+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:34:39.156+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:34:39.161+0500] {processor.py:840} INFO - DAG(s) 'latest_only' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py
+[2025-12-06T04:34:39.202+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:34:39.202+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:34:39.209+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:34:39.209+0500] {dag.py:3947} INFO - Setting next_dagrun for latest_only to 2025-12-05 16:00:00+00:00, run_after=2025-12-05 20:00:00+00:00
+[2025-12-06T04:34:39.217+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_latest_only.py took 0.064 seconds

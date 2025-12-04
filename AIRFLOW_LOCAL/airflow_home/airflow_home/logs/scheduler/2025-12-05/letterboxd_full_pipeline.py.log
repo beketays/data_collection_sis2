@@ -1,0 +1,186 @@
+[2025-12-06T03:54:54.295+0500] {processor.py:161} INFO - Started process (PID=79469) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T03:54:54.296+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T03:54:54.297+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:54:54.296+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T03:54:54.865+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T03:54:54.964+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:54:54.964+0500] {override.py:1930} INFO - Created Permission View: can edit on DAG:letterboxd_etl_pipeline
+[2025-12-06T03:54:54.969+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:54:54.969+0500] {override.py:1930} INFO - Created Permission View: can delete on DAG:letterboxd_etl_pipeline
+[2025-12-06T03:54:54.972+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:54:54.972+0500] {override.py:1930} INFO - Created Permission View: can read on DAG:letterboxd_etl_pipeline
+[2025-12-06T03:54:54.972+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:54:54.972+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T03:54:54.977+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:54:54.977+0500] {dag.py:3111} INFO - Creating ORM DAG for letterboxd_etl_pipeline
+[2025-12-06T03:54:54.982+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:54:54.982+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T03:54:54.992+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.699 seconds
+[2025-12-06T03:56:58.928+0500] {processor.py:161} INFO - Started process (PID=79639) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T03:56:58.928+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T03:56:58.929+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:56:58.929+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T03:56:59.310+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T03:56:59.354+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:56:59.353+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T03:56:59.361+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:56:59.361+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T03:56:59.370+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.444 seconds
+[2025-12-06T03:58:27.207+0500] {processor.py:161} INFO - Started process (PID=79730) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T03:58:27.208+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T03:58:27.208+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:58:27.208+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T03:58:27.593+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T03:58:27.645+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:58:27.644+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T03:58:27.652+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:58:27.652+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T03:58:27.662+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.457 seconds
+[2025-12-06T04:00:01.831+0500] {processor.py:161} INFO - Started process (PID=80305) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:00:01.832+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:00:01.832+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:00:01.832+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:00:02.268+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:00:02.321+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:00:02.321+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:00:02.329+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:00:02.329+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:00:02.340+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.510 seconds
+[2025-12-06T04:01:40.574+0500] {processor.py:161} INFO - Started process (PID=80446) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:01:40.575+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:01:40.575+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:01:40.575+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:01:40.952+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:01:41.000+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:01:41.000+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:01:41.009+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:01:41.009+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:01:41.019+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.447 seconds
+[2025-12-06T04:03:21.435+0500] {processor.py:161} INFO - Started process (PID=80930) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:03:21.436+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:03:21.436+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:03:21.436+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:03:21.824+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:03:21.874+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:03:21.874+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:03:21.883+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:03:21.883+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:03:21.893+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.459 seconds
+[2025-12-06T04:05:04.251+0500] {processor.py:161} INFO - Started process (PID=81177) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:05:04.252+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:05:04.253+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:05:04.253+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:05:04.644+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:05:04.695+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:05:04.695+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:05:04.703+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:05:04.703+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:05:04.712+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.463 seconds
+[2025-12-06T04:06:48.685+0500] {processor.py:161} INFO - Started process (PID=81493) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:06:48.687+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:06:48.687+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:06:48.687+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:06:49.150+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:06:49.205+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:06:49.204+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:06:49.215+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:06:49.214+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:06:49.225+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.544 seconds
+[2025-12-06T04:08:26.377+0500] {processor.py:161} INFO - Started process (PID=81603) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:08:26.386+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:08:26.387+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:08:26.387+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:08:26.992+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:08:27.065+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:08:27.064+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:08:27.075+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:08:27.075+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:08:27.086+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.715 seconds
+[2025-12-06T04:10:12.768+0500] {processor.py:161} INFO - Started process (PID=81744) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:10:12.769+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:10:12.770+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:10:12.770+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:10:13.260+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:10:13.305+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:10:13.305+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:10:13.313+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:10:13.313+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:10:13.322+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.556 seconds
+[2025-12-06T04:11:51.031+0500] {processor.py:161} INFO - Started process (PID=81865) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:11:51.032+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:11:51.032+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:11:51.032+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:11:51.491+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:11:51.542+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:11:51.542+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:11:51.551+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:11:51.551+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:11:51.561+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.533 seconds
+[2025-12-06T04:13:31.587+0500] {processor.py:161} INFO - Started process (PID=82043) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:13:31.588+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:13:31.589+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:13:31.589+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:13:32.221+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:13:32.275+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:13:32.275+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:13:32.284+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:13:32.284+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:13:32.295+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.715 seconds
+[2025-12-06T04:15:10.581+0500] {processor.py:161} INFO - Started process (PID=82162) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:15:10.583+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:15:10.584+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:15:10.583+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:15:10.978+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:15:11.031+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:15:11.031+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:15:11.039+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:15:11.039+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:15:11.049+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.471 seconds
+[2025-12-06T04:16:46.520+0500] {processor.py:161} INFO - Started process (PID=82275) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:16:46.522+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:16:46.522+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:16:46.522+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:16:46.985+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:16:47.073+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:16:47.072+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:16:47.089+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:16:47.088+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:16:47.104+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.589 seconds
+[2025-12-06T04:18:18.834+0500] {processor.py:161} INFO - Started process (PID=82382) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:18:18.835+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:18:18.836+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:18:18.835+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:18:19.217+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:18:19.266+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:18:19.266+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:18:19.275+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:18:19.275+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:18:19.285+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.453 seconds
+[2025-12-06T04:19:53.923+0500] {processor.py:161} INFO - Started process (PID=82483) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:19:53.924+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:19:53.925+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:19:53.924+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:19:54.440+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:19:54.497+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:19:54.496+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:19:54.507+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:19:54.507+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:19:54.518+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.598 seconds
+[2025-12-06T04:21:23.859+0500] {processor.py:161} INFO - Started process (PID=82579) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:21:23.860+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:21:23.860+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:21:23.860+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:21:24.305+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:21:24.362+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:21:24.362+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:21:24.375+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:21:24.375+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:21:24.391+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.534 seconds
+[2025-12-06T04:22:48.097+0500] {processor.py:161} INFO - Started process (PID=82687) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:22:48.097+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:22:48.098+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:22:48.098+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:22:48.472+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:22:48.520+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:22:48.520+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:22:48.528+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:22:48.528+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:22:48.537+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.443 seconds
+[2025-12-06T04:24:12.042+0500] {processor.py:161} INFO - Started process (PID=82785) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:24:12.044+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:24:12.051+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:24:12.051+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:24:12.483+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:24:12.537+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:24:12.537+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:24:12.546+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:24:12.546+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:24:12.556+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.518 seconds
+[2025-12-06T04:25:51.708+0500] {processor.py:161} INFO - Started process (PID=83163) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:25:51.708+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:25:51.709+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:25:51.709+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:25:52.093+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:25:52.154+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:25:52.154+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:25:52.163+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:25:52.163+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:25:52.172+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.467 seconds
+[2025-12-06T04:27:39.570+0500] {processor.py:161} INFO - Started process (PID=83387) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:27:39.572+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:27:39.573+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:27:39.572+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:27:39.967+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:27:40.016+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:27:40.016+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:27:40.024+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:27:40.024+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:27:40.033+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.465 seconds
+[2025-12-06T04:29:20.123+0500] {processor.py:161} INFO - Started process (PID=83693) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:29:20.124+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:29:20.124+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:29:20.124+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:29:20.516+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:29:20.557+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:29:20.556+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:29:20.563+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:29:20.563+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:29:20.571+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.451 seconds
+[2025-12-06T04:31:20.101+0500] {processor.py:161} INFO - Started process (PID=83879) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:31:20.102+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:31:20.103+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:31:20.102+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:31:20.561+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:31:20.629+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:31:20.629+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:31:20.640+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:31:20.639+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:31:20.650+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.551 seconds
+[2025-12-06T04:33:13.357+0500] {processor.py:161} INFO - Started process (PID=84082) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:33:13.358+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:33:13.359+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:33:13.358+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:33:13.749+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:33:13.794+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:33:13.793+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:33:13.802+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:33:13.802+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:33:13.811+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.456 seconds
+[2025-12-06T04:34:58.500+0500] {processor.py:161} INFO - Started process (PID=84254) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:34:58.501+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:34:58.502+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:34:58.502+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:34:58.850+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:34:58.895+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:34:58.895+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:34:58.903+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:34:58.903+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:34:58.912+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.414 seconds
+[2025-12-06T04:37:12.307+0500] {processor.py:161} INFO - Started process (PID=84443) to work on /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:37:12.308+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py for tasks to queue
+[2025-12-06T04:37:12.308+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:37:12.308+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:37:12.661+0500] {processor.py:840} INFO - DAG(s) 'letterboxd_etl_pipeline' retrieved from /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py
+[2025-12-06T04:37:12.710+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:37:12.709+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:37:12.719+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:37:12.719+0500] {dag.py:3947} INFO - Setting next_dagrun for letterboxd_etl_pipeline to 2025-12-05 00:00:00+00:00, run_after=2025-12-06 00:00:00+00:00
+[2025-12-06T04:37:12.728+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/airflow_home/dags/letterboxd_full_pipeline.py took 0.422 seconds

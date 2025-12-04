@@ -1,0 +1,14 @@
+[2025-12-06T03:06:06.529+0500] {processor.py:161} INFO - Started process (PID=76884) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-12-06T03:06:06.529+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-12-06T03:06:06.530+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:06:06.530+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-12-06T03:06:06.549+0500] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-12-06T03:06:06.672+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:06:06.672+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T03:06:06.680+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:06:06.680+0500] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-12-06T03:06:06.690+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.166 seconds
+[2025-12-06T03:10:27.669+0500] {processor.py:161} INFO - Started process (PID=77702) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-12-06T03:10:27.669+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-12-06T03:10:27.670+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:10:27.670+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-12-06T03:10:27.692+0500] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-12-06T03:10:27.824+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:10:27.824+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T03:10:27.832+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:10:27.832+0500] {dag.py:3947} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2025-12-06T03:10:27.842+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.176 seconds

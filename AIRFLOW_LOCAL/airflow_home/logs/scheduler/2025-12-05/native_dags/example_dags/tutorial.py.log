@@ -1,0 +1,91 @@
+[2025-12-06T03:04:49.982+0500] {processor.py:161} INFO - Started process (PID=76803) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T03:04:49.983+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-12-06T03:04:49.984+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:04:49.984+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T03:04:49.993+0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T03:04:50.001+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:04:50.001+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T03:04:50.059+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:04:50.058+0500] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-12-04 00:00:00+00:00, run_after=2025-12-05 00:00:00+00:00
+[2025-12-06T03:04:50.070+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.094 seconds
+[2025-12-06T03:09:15.610+0500] {processor.py:161} INFO - Started process (PID=77617) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T03:09:15.612+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-12-06T03:09:15.612+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:09:15.612+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T03:09:15.618+0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T03:09:15.819+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:09:15.819+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T03:09:15.832+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:09:15.832+0500] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-12-04 00:00:00+00:00, run_after=2025-12-05 00:00:00+00:00
+[2025-12-06T03:09:15.984+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.379 seconds
+[2025-12-06T04:29:59.350+0500] {processor.py:161} INFO - Started process (PID=83769) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:29:59.350+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-12-06T04:29:59.351+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:29:59.351+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:29:59.357+0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:29:59.437+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:29:59.437+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:29:59.444+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:29:59.444+0500] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-12-04 00:00:00+00:00, run_after=2025-12-05 00:00:00+00:00
+[2025-12-06T04:29:59.486+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.138 seconds
+[2025-12-06T04:32:54.786+0500] {processor.py:161} INFO - Started process (PID=84037) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:32:54.787+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-12-06T04:32:54.788+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:32:54.788+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:32:54.798+0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:32:54.866+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:32:54.865+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:32:54.876+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:32:54.876+0500] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-12-04 00:00:00+00:00, run_after=2025-12-05 00:00:00+00:00
+[2025-12-06T04:32:54.890+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.107 seconds
+[2025-12-06T04:34:58.934+0500] {processor.py:161} INFO - Started process (PID=84255) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:34:58.935+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-12-06T04:34:58.935+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:34:58.935+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:34:58.943+0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:34:58.995+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:34:58.995+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:34:59.005+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:34:59.005+0500] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-12-04 00:00:00+00:00, run_after=2025-12-05 00:00:00+00:00
+[2025-12-06T04:34:59.015+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.083 seconds
+[2025-12-06T04:40:20.977+0500] {processor.py:161} INFO - Started process (PID=85502) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:40:20.978+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-12-06T04:40:20.978+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:40:20.978+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:40:20.985+0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:40:21.029+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:40:21.029+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:40:21.037+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:40:21.037+0500] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-12-04 00:00:00+00:00, run_after=2025-12-05 00:00:00+00:00
+[2025-12-06T04:40:21.046+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.070 seconds
+[2025-12-06T04:42:58.065+0500] {processor.py:161} INFO - Started process (PID=85650) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:42:58.066+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-12-06T04:42:58.066+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:42:58.066+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:42:58.075+0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:42:58.129+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:42:58.129+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:42:58.138+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:42:58.138+0500] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-12-04 00:00:00+00:00, run_after=2025-12-05 00:00:00+00:00
+[2025-12-06T04:42:58.148+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.085 seconds
+[2025-12-06T04:45:21.725+0500] {processor.py:161} INFO - Started process (PID=85791) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:45:21.727+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-12-06T04:45:21.727+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:45:21.727+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:45:21.732+0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:45:21.776+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:45:21.776+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:45:21.784+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:45:21.784+0500] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-12-04 00:00:00+00:00, run_after=2025-12-05 00:00:00+00:00
+[2025-12-06T04:45:21.792+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2025-12-06T04:47:52.374+0500] {processor.py:161} INFO - Started process (PID=85910) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:47:52.375+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-12-06T04:47:52.376+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:47:52.375+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:47:52.380+0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:47:52.422+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:47:52.422+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:47:52.429+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:47:52.429+0500] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-12-04 00:00:00+00:00, run_after=2025-12-05 00:00:00+00:00
+[2025-12-06T04:47:52.438+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2025-12-06T04:50:24.050+0500] {processor.py:161} INFO - Started process (PID=86402) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:50:24.050+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-12-06T04:50:24.051+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:50:24.051+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:50:24.055+0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:50:24.100+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:50:24.100+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:50:24.108+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:50:24.108+0500] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-12-04 00:00:00+00:00, run_after=2025-12-05 00:00:00+00:00
+[2025-12-06T04:50:24.117+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2025-12-06T04:52:54.497+0500] {processor.py:161} INFO - Started process (PID=86583) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:52:54.497+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-12-06T04:52:54.498+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:52:54.498+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:52:54.502+0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:52:54.544+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:52:54.543+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:52:54.551+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:52:54.551+0500] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-12-04 00:00:00+00:00, run_after=2025-12-05 00:00:00+00:00
+[2025-12-06T04:52:54.560+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2025-12-06T04:55:31.776+0500] {processor.py:161} INFO - Started process (PID=87435) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:55:31.777+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-12-06T04:55:31.777+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:55:31.777+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:55:31.783+0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:55:31.843+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:55:31.842+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:55:31.852+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:55:31.852+0500] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-12-04 00:00:00+00:00, run_after=2025-12-05 00:00:00+00:00
+[2025-12-06T04:55:31.862+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.087 seconds
+[2025-12-06T04:57:57.806+0500] {processor.py:161} INFO - Started process (PID=87589) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:57:57.808+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-12-06T04:57:57.808+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:57:57.808+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:57:57.814+0500] {processor.py:840} INFO - DAG(s) 'tutorial' retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py
+[2025-12-06T04:57:57.911+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:57:57.910+0500] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-12-06T04:57:57.930+0500] {logging_mixin.py:188} INFO - [2025-12-06T04:57:57.929+0500] {dag.py:3947} INFO - Setting next_dagrun for tutorial to 2025-12-04 00:00:00+00:00, run_after=2025-12-05 00:00:00+00:00
+[2025-12-06T04:57:57.941+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/tutorial.py took 0.140 seconds

@@ -1,0 +1,5 @@
+[2025-12-06T03:10:44.588+0500] {processor.py:161} INFO - Started process (PID=77720) to work on /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-12-06T03:10:44.589+0500] {processor.py:830} INFO - Processing file /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2025-12-06T03:10:44.589+0500] {logging_mixin.py:188} INFO - [2025-12-06T03:10:44.589+0500] {dagbag.py:545} INFO - Filling up the DagBag from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-12-06T03:10:44.604+0500] {processor.py:842} WARNING - No viable dags retrieved from /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2025-12-06T03:10:44.649+0500] {processor.py:183} INFO - Processing /Users/symbat/airflow_local/.venv/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.063 seconds

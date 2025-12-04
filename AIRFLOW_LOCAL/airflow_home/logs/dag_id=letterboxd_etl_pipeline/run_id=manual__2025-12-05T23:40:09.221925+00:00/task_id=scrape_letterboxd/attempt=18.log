@@ -1,0 +1,23 @@
+[2025-12-06T08:59:38.380+0500] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-12-06T08:59:38.388+0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: letterboxd_etl_pipeline.scrape_letterboxd manual__2025-12-05T23:40:09.221925+00:00 [queued]>
+[2025-12-06T08:59:38.393+0500] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: letterboxd_etl_pipeline.scrape_letterboxd manual__2025-12-05T23:40:09.221925+00:00 [queued]>
+[2025-12-06T08:59:38.393+0500] {taskinstance.py:2306} INFO - Starting attempt 18 of 3
+[2025-12-06T08:59:38.402+0500] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): scrape_letterboxd> on 2025-12-05 23:40:09.221925+00:00
+[2025-12-06T08:59:38.407+0500] {standard_task_runner.py:64} INFO - Started process 98078 to run task
+[2025-12-06T08:59:38.425+0500] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'letterboxd_etl_pipeline', 'scrape_letterboxd', 'manual__2025-12-05T23:40:09.221925+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/letterboxd_full_pipeline.py', '--cfg-path', '/var/folders/_c/cll051r911b7vr3j31p4d20m0000gn/T/tmpg_97ue5i']
+[2025-12-06T08:59:38.426+0500] {standard_task_runner.py:91} INFO - Job 71: Subtask scrape_letterboxd
+[2025-12-06T08:59:38.477+0500] {task_command.py:426} INFO - Running <TaskInstance: letterboxd_etl_pipeline.scrape_letterboxd manual__2025-12-05T23:40:09.221925+00:00 [running]> on host symbats-macbook-air-2.local
+[2025-12-06T08:59:38.622+0500] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='letterboxd_etl_pipeline' AIRFLOW_CTX_TASK_ID='scrape_letterboxd' AIRFLOW_CTX_EXECUTION_DATE='2025-12-05T23:40:09.221925+00:00' AIRFLOW_CTX_TRY_NUMBER='18' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-05T23:40:09.221925+00:00'
+[2025-12-06T08:59:38.623+0500] {taskinstance.py:430} INFO - ::endgroup::
+[2025-12-06T08:59:38.624+0500] {letterboxd_full_pipeline.py:34} INFO - === [SCRAPE] Starting scraping from Letterboxd ===
+[2025-12-06T08:59:38.625+0500] {scraper.py:137} INFO - Starting Letterboxd scraping for 10 pages
+[2025-12-06T08:59:38.627+0500] {logger.py:11} INFO - ====== WebDriver manager ======
+[2025-12-06T08:59:41.720+0500] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2025-12-06T09:00:48.802+0500] {local_task_job_runner.py:313} WARNING - State of this instance has been externally set to queued. Terminating instance.
+[2025-12-06T09:00:48.821+0500] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2025-12-06T09:00:48.836+0500] {process_utils.py:132} INFO - Sending 15 to group 98078. PIDs of all processes in the group: [98078]
+[2025-12-06T09:00:48.838+0500] {process_utils.py:87} INFO - Sending the signal 15 to group 98078
+[2025-12-06T09:01:48.864+0500] {process_utils.py:150} WARNING - process psutil.Process(pid=98078, name='Python', status='running') did not respond to SIGTERM. Trying SIGKILL
+[2025-12-06T09:01:48.886+0500] {process_utils.py:87} INFO - Sending the signal 9 to group 98078
+[2025-12-06T09:01:48.894+0500] {process_utils.py:80} INFO - Process psutil.Process(pid=98078, name='Python', status='terminated', exitcode=<Negsignal.SIGKILL: -9>) (98078) terminated with exit code -9
+[2025-12-06T09:01:48.895+0500] {standard_task_runner.py:176} ERROR - ('Job 71 was killed before it finished (likely due to running out of memory)', 'For more information, see https://airflow.apache.org/docs/apache-airflow/stable/troubleshooting.html#LocalTaskJob-killed')
